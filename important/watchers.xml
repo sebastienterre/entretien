@@ -1,0 +1,42 @@
+<TaskOptions>
+  <TaskOptions>
+    <option name="arguments" value="$FileDir$/$FileName$ -o $FileDir$/../../../public/js/$FileNameWithoutExtension$.min.js" />
+    <option name="checkSyntaxErrors" value="true" />
+    <option name="description" />
+    <option name="exitCodeBehavior" value="ERROR" />
+    <option name="fileExtension" value="js" />
+    <option name="immediateSync" value="false" />
+    <option name="name" value="[SF] JS in /public/js" />
+    <option name="output" value="$FileDir$/../../../public/js/$FileNameWithoutExtension$.min.js:$FileDir$/../../../public/js/$FileNameWithoutExtension$.min.js.map" />
+    <option name="outputFilters">
+      <array />
+    </option>
+    <option name="outputFromStdout" value="false" />
+    <option name="program" value="babel-minify" />
+    <option name="runOnExternalChanges" value="true" />
+    <option name="scopeName" value="Project Files" />
+    <option name="trackOnlyRoot" value="false" />
+    <option name="workingDir" value="$ContentRoot$" />
+    <envs />
+  </TaskOptions>
+  <TaskOptions>
+    <option name="arguments" value="--style compressed --update $FileName$:../../../public/css/$FileNameWithoutExtension$.min.css" />
+    <option name="checkSyntaxErrors" value="true" />
+    <option name="description" />
+    <option name="exitCodeBehavior" value="ERROR" />
+    <option name="fileExtension" value="scss" />
+    <option name="immediateSync" value="false" />
+    <option name="name" value="[SF] SCSS in /public/css" />
+    <option name="output" value="../../../public/css/$FileNameWithoutExtension$.min.css:../../../public/css/$FileNameWithoutExtension$.min.css.map" />
+    <option name="outputFilters">
+      <array />
+    </option>
+    <option name="outputFromStdout" value="false" />
+    <option name="program" value="sass" />
+    <option name="runOnExternalChanges" value="true" />
+    <option name="scopeName" value="Project Files" />
+    <option name="trackOnlyRoot" value="true" />
+    <option name="workingDir" value="$FileDir$" />
+    <envs />
+  </TaskOptions>
+</TaskOptions>
